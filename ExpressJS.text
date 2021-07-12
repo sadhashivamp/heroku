@@ -1,0 +1,8 @@
+*whats middleware?
+    -Middleware functions are functions that have access to the request object(req),
+     the response object(res),and the next middleware function in the applications 
+     request-response cycle.
+    -this functions are used to modify req and res objects for tasks like
+     parsing request bodies,adding response headers, etc.
+    -remember the order of the methods is extreamely important
+    
